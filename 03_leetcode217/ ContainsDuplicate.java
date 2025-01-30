@@ -11,7 +11,6 @@ class Solution {
         // }
         // } return false; //Time Limit Exceeded
 
-
         Arrays.sort(nums);
         for (int i = 0; i < nums.length-1; i++) {
             if (nums[i] == nums[i + 1]) {
