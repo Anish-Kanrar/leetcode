@@ -1,4 +1,5 @@
 class Solution {
+    
     public int searchInsert(int[] nums, int target) {
         int lb=0;
         int ub=nums.length-1;
